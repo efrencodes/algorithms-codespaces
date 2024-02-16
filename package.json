@@ -1,0 +1,15 @@
+{
+    "name": "algorithms-leetcode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/*",
+    "scripts": {
+        "dev": "npx tsc --watch",
+        "test": "vitest"
+    },
+    "author": "efrencodes <hey@efrencodes.com> (https://efrencodes.com)",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}
