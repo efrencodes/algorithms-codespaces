@@ -4,12 +4,15 @@
     "description": "",
     "main": "./src/*",
     "scripts": {
-        "dev": "npx tsc --watch",
-        "test": "vitest"
+        "start": "npx tsc --watch",
+        "watch": "node --watch $1",
+        "test": "vitest",
+        "format": "prettier ./src --write"
     },
     "author": "efrencodes <hey@efrencodes.com> (https://efrencodes.com)",
     "license": "MIT",
     "devDependencies": {
+        "prettier": "^3.3.3",
         "typescript": "^5.3.3"
     }
 }
